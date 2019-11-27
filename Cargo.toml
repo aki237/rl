@@ -1,0 +1,15 @@
+[package]
+name = "rl"
+version = "0.1.0"
+authors = ["Akilan Elango <akilan@squadcast.com>"]
+edition = "2018"
+
+[lib]
+name = "rl"
+path = "src/rl/lib.rs"
+
+[[bin]]
+name = "rlc"
+path = "src/rlc/main.rs"
+
+[dependencies]
